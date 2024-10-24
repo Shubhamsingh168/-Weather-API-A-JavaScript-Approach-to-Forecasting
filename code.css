@@ -1,0 +1,141 @@
+@import url("https:fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    color: #171717;
+}
+
+.container {
+    background-color: #fff;
+    color: #171717;
+    padding: 2rem;
+    width: 50%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+.weather_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background: #171717;
+    outline: none;
+    padding: 0.5rem 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #f7f7f7;
+}
+
+.weather_search {
+    position: relative;
+}
+
+.weather_date_time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_temperature {
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.weather_min {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_search i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Weather Info Layout */
+.weather_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.weather_city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.weather_card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+.weather_card i {
+    font-size: 24px;
+    color: #171717;
+}
+
+.weather_card div p {
+    margin: 0;
+    color: #171717;
+}
+
+.weather_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+.weather_feelslike,
+.weather_humidity,
+.weather_wind,
+.weather_pressure {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
