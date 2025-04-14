@@ -1,4 +1,4 @@
-Link :- https://weatherapplication-api.netlify.app/
+Link :- https://weather-application-apiproject.netlify.app/
 
 Welcome to ☁️🌤️ Weather API: A JavaScript Approach to Forecasting! This project aims to provide developers with a powerful and easy-to-use weather API built entirely in JavaScript. Leveraging modern web technologies, our API offers real-time weather data, including temperature, humidity, wind speed, and forecasts for any location around the globe.
 
